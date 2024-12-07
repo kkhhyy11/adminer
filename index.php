@@ -18,19 +18,19 @@ function getRealClientIp() {
     }
     return $ipaddress;
 }
-		
+/*		
 $ipaddress = getRealClientIp();
 
-
-$ip = '172.18.0.1';
+echo $ipaddress;
+$ip = '103.163.220.37';
 
 if($ipaddress != $ip)
 {
 	block();
 	die();
 }
-
-require('adminer.php');
+ */
+require('adminer-4.8.1.php');
 
 function block(){
 	$html=<<<EOF
