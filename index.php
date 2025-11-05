@@ -30,7 +30,7 @@ if($ipaddress != $ip)
 	die();
 }
  */
-require('adminer-4.8.1.php');
+require('adminer-5.4.1-mysql');
 
 function block(){
 	$html=<<<EOF
